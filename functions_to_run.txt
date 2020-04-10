@@ -1,0 +1,20 @@
+# Slide 4
+ssh shreyasr@10.64.18.30
+source ~/.bashrc
+vi ~/.bashrc
+vi ~/.bash_profile
+sed -i 's|.bashrc_old|.bashrc|g' ~/.bash_profile
+
+# Slide 5-6
+df -h
+du -sh
+cd /home/data
+cd /home/data1
+cd /home/data2
+cd /state/partition1
+lscpu
+nvidia-smi
+ssh compute-0-0
+ssh compute-0-4
+
+#Slide 7
