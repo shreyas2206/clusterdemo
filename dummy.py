@@ -15,6 +15,6 @@ print("Startin nnet training... \n")
 
 for i in range(60):
     time.sleep(1)
-    print("Iteration {}: loss = {}".format(i,(1/(1+i))))
+    print("epoch {}: loss = {}".format(i,(1/(1+i))))
     
 print("Done")
